@@ -1,0 +1,27 @@
+body{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #232323;
+}
+button {
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  font-family: 'Belanosima', sans-serif;
+  cursor: pointer;
+  color:#ddd;
+  background-color: rgba(26, 26, 26, 0.5);
+  transition:background-color 0.3s;
+}
+
+button:hover{
+  background-color: rgb(78, 15, 15);
+}
+
+@media (min-width: 1200px) {
+  button{
+    font-size: 4rem;
+  }
+}

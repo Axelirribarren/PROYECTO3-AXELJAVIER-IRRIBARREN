@@ -1,0 +1,23 @@
+.home-div{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    position: relative;
+    gap: 2rem;
+}
+.history-button{
+    box-shadow: 5px 5px 10px black;
+    border: 2px solid black;
+}
+
+.main-title{
+    font-size: 2rem;
+    font-family: 'Belanosima', sans-serif;
+    text-shadow: 5px 5px 5px black;
+    letter-spacing: 0.2rem;
+}
+.by-me{
+    position: absolute;
+    left: 0;
+    color: #ddd;
+}

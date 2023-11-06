@@ -1,0 +1,87 @@
+{
+  "tiposPropiedad": [
+    {
+      "nombre": "Casa",
+      "costo": 100.0
+    },
+    {
+      "nombre": "Departamento",
+      "costo": 1.8
+    },
+    {
+      "nombre": "Monoambiente",
+      "costo": 1.3
+    }
+  ],
+  "ubicaciones": [
+    {
+      "nombre": "Urbano",
+      "costo": 1.0
+    },
+    {
+      "nombre": "Centro",
+      "costo": 2.0
+    },
+    {
+      "nombre": "Costanera",
+      "costo": 3.0
+    }
+  ],
+  "ciudades": [
+    {
+      "nombre": "Diamante",
+      "tarifa": 300000
+    },
+    {
+      "nombre": "Paraná",
+      "tarifa": 500000
+    },
+    {
+      "nombre": "Gualeguaychú",
+      "tarifa": 400000
+    },
+    {
+      "nombre": "Concordia",
+      "tarifa": 300000
+    },
+    {
+      "nombre": "Victoria",
+      "tarifa": 300000
+    },
+    {
+      "nombre": "Federación",
+      "tarifa": 450000
+    },
+    {
+      "nombre": "Colón",
+      "tarifa": 480000
+    },
+    {
+      "nombre": "Gualeguay",
+      "tarifa": 250000
+    },
+    {
+      "nombre": "La Paz",
+      "tarifa": 300000
+    },
+    {
+      "nombre": "Villaguay",
+      "tarifa": 250000
+    }
+  ],
+  
+  "tipoSeguridad": [
+    {
+      "nombre": "Sin sistema de alarma",
+      "factorSeguridad": 0.5
+    },
+    {
+      "nombre": "Con sistema de alarma",
+      "factorSeguridad": 1.0
+    },
+    {
+      "nombre": "Con alarma y cámaras de seguridad",
+      "factorSeguridad": 1.3
+    }
+  ]
+}
