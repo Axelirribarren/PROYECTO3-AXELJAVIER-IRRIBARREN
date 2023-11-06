@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Historial from './pages/Historial';
 
 function App() {
-  const [cotizaciones, setCotizaciones] = useState([]); // Estado de cotizaciones
+  const [cotizaciones, setCotizaciones] = useState([]);
 
   return (
     <Router>
