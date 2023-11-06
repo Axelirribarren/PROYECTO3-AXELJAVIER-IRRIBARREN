@@ -6,6 +6,8 @@ se guardaria en el "Historial" pudiendo así seguir agregando las cotizaciones q
 Ahora voy a mensionar ciertas dificultades que tuve en el proyecto: 
 -Al principio manejar las bibliotecas, fue un poco dificil, ya que si la traía y no la utilizaba, mi pagina principal no funcionaba, si agregaba alguna biblioteca desactualizada (ChatGPT proporciona informacion que muchas veces no esta actualizada) entonces no iba a funcionar y tenia que investigar y leer la documentacion de la propia biblioteca.
 -Tuve muchos conflictos con el navegador el cual cuando cotizaba podia guardar en el local (en el home) pero cuando se pasaba al "historial" me pasaba arrays vacios, aunque se suponía que estaba todo bien, ciertas extensiones del navegador me generaban muchos conflictos con el proyecto. 
+-Quisiera mencionar que intente hacer el deploy en Netlify "https://wondrous-squirrel-b8542f.netlify.app" el mismo se puede visualizar pero no funciona correctamente, las imagenes no se observan correctamente, hay estilos que no se aplican y el boton de "borrar datos" hace que la página se caiga, creo suponer que la funcion de windows en javascript genera ciertos conflictos.
+-Además intente subirlo viendo videos para github pages pero también sin exito, espero puedan visualizarlo correctamente.
 
 Sin extenderme mucho más, queria agradecer por la buena onda y predisposicion por parte de todos los profes. ¡Muchas gracias!
 -Irribarren Axel Javier.
