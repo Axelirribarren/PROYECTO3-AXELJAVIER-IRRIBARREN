@@ -1,26 +1,19 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from 'react';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Historial from './pages/Historial';
+import { QuotesProvider } from './context/QuotesContext';
 
 function App() {
-  const [cotizaciones, setCotizaciones] = useState([]);
-
   return (
-    <Router>
-      <div>
+    <QuotesProvider>
+      <Router>
         <Routes>
-          <Route
-            path="/"
-            element={<Home cotizaciones={cotizaciones} setCotizaciones={setCotizaciones} />}
-          />
-          <Route
-            path="/Historial"
-            element={<Historial cotizaciones={cotizaciones} />}
-          />
+          <Route path="/" element={<Home />} />
+          <Route path="/historial" element={<Historial />} />
         </Routes>
-      </div>
-    </Router>
+      </Router>
+    </QuotesProvider>
   );
 }
 
